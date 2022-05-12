@@ -1,0 +1,12 @@
+{
+  "name": "@therecordstore/api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

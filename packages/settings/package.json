@@ -1,0 +1,12 @@
+{
+  "name": "@therecordstore/settings",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Nuno Pereira",
+      "email": "nunocpereira@outlook.com"
+    }
+  ]
+}
