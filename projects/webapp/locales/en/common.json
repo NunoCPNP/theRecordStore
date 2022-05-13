@@ -1,0 +1,9 @@
+{
+    "title": "Hello world",
+    "navbar-home": "Home",
+    "navbar-about": "About",
+    "navbar-new": "New Records",
+    "navbar-used": "Used Records",
+    "navbar-last-entries": "Latest Arrivals",
+    "navbar-contacts": "Contacts"
+}

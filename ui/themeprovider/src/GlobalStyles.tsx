@@ -49,7 +49,7 @@ export const GlobalStyles = () => {
           margin: 0;
           font-size: var(--baseFontSize);
           color: var(--white);
-          background-color: var(--color-e);
+          background-color: var(--accent-color-e);
           font-family: 'Exo 2', sans-serif;
           box-sizing: border-box;
         }

@@ -8,11 +8,11 @@ export const GlobalStyles = () => {
           --black: #262533;
           --white: #fffafa;
 
-          --color-a: #3d5a80;
-          --color-b: #98c1d9;
-          --color-c: #e0fbfc;
-          --color-d: #ee6c4d;
-          --color-e: #293241;
+          --accent-color-a: #3d5a80;
+          --accent-color-b: #98c1d9;
+          --accent-color-c: #e0fbfc;
+          --accent-color-d: #ee6c4d;
+          --accent-color-e: #293241;
 
           /* Typography */
           --baseFontSize: 1.6rem;
@@ -46,7 +46,7 @@ export const GlobalStyles = () => {
           margin: 0;
           font-size: var(--baseFontSize);
           color: var(--white);
-          background-color: var(--color-e);
+          background-color: var(--accent-color-e);
           font-family: 'Exo 2', sans-serif;
           box-sizing: border-box;
         }
