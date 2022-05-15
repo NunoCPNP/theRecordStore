@@ -1,7 +1,7 @@
 {
   "name": "@therecordstore/library",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.9.0",

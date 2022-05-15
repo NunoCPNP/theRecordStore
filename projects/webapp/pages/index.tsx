@@ -6,6 +6,8 @@ import useTranslation from 'next-translate/useTranslation'
 import { useFeatureToggle } from '../hooks/useFeatureToggle'
 import { FeatureArray, fetchFeatures } from '../services/FeatureToggle'
 
+import { Button } from '@therecordstore/library'
+
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
   const [isEnabled, enableFeature, disableFeature] = useFeatureToggle()
@@ -38,6 +40,7 @@ const Home: NextPage = () => {
 
       <div>{t('title')}</div>
       {isEnabled('sample') && <h1>FEATURE TOGGLE</h1>}
+      <Button label="teste" primary />
     </>
   )
 }
