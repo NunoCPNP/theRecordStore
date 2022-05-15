@@ -20,7 +20,8 @@
     "predev": "lerna run build --scope @therecordstore/themeprovider",
     "dev": "lerna run dev --parallel --scope @therecordstore/webapp --stream --scope @therecordstore/api --stream",
     "dev:webapp": "lerna run dev --scope @therecordstore/webapp --stream",
-    "dev:api": "lerna run dev --scope @therecordstore/api --stream"
+    "dev:api": "lerna run dev --scope @therecordstore/api --stream",
+    "storybook": "lerna run storybook --scope @therecordstore/library --stream"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
