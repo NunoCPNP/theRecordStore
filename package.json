@@ -26,9 +26,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix", "yarn commitlint --edit $1"
-    ]
+    "*.{js,jsx,ts,tsx}": [ "eslint --fix" ]
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
