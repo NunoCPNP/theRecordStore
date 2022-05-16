@@ -4,6 +4,7 @@ const withTM = require('next-transpile-modules')(['@therecordstore/library']) //
 
 const nextConfig = {
   reactStrictMode: true,
+  eslint: ["pages", "components", "context", "hooks", "layouts", "locales", "modules", "services"],
   ...nextTranslate(),
 }
 

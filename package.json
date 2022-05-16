@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "preinstall": "node checkyarn.js",
+    "precommit": "lint-staged",
     "version": "lerna version --conventional-commits --yes",
     "predev": "lerna run build --scope @therecordstore/themeprovider",
     "dev": "lerna run dev --parallel --scope @therecordstore/webapp --stream --scope @therecordstore/api --stream",
